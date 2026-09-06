@@ -4,8 +4,60 @@ import streamlit as st
 st.set_page_config(page_title="Liquidador TSG Moreno", page_icon="🏛️", layout="wide")
 
 # TITULO REQUERIDO
-st.markdown("<h2 style='text-align: center; color: #1e3a8a;'>TASAS POR SERVICIOS GENERALES</h2>", unsafe_allow_html=True)
-st.write("---")
+# DISEÑO VISUAL INSTITUCIONAL (Color de fondo celeste y textos legibles)
+st.markdown(
+    """
+    <style>
+    /* Cambia el fondo de toda la página web a celeste claro */
+    .stApp {
+        background-color: #3da9fc;
+    }
+    /* Estilo del recuadro gris de resultados */
+    .stAlert {
+        background-color: #e2e8f0 !important;
+        color: black !important;
+        border-left: 5px solid #1e3a8a !important;
+    }
+    /* Hace las etiquetas de los casilleros más oscuras y legibles */
+    label, p, span {
+        color: #0f172a !important;
+        font-weight: bold !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# TITULO REQUERIDO (Enmarcado en azul oscuro como tu formato anterior)
+# DISEÑO VISUAL INSTITUCIONAL (Color de fondo celeste y textos legibles)
+st.markdown(
+    """
+    <style>
+    /* Cambia el fondo de toda la página web a celeste claro */
+    .stApp {
+        background-color: #3da9fc;
+    }
+    /* Estilo del recuadro gris de resultados */
+    .stAlert {
+        background-color: #e2e8f0 !important;
+        color: black !important;
+        border-left: 5px solid #1e3a8a !important;
+    }
+    /* Hace las etiquetas de los casilleros más oscuras y legibles */
+    label, p, span {
+        color: #0f172a !important;
+        font-weight: bold !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# TITULO REQUERIDO (Enmarcado en azul oscuro como tu formato anterior)
+st.markdown("<h2 style='text-align: center; color: white; background-color: #1e3a8a; padding: 12px; border-radius: 5px;'>TASAS POR SERVICIOS GENERALES</h2>", unsafe_allow_html=True)
+st.write("")
+
+
 
 # =====================================================================
 # INTERFAZ DE USUARIO: FORMULARIO DE CARGA DE DATOS
